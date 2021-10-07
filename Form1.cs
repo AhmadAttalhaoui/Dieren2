@@ -15,15 +15,15 @@ namespace Dieren2
     public partial class Form1 : Form
     {
 
-        public SoundPlayer KoesoundPlayer;
-        public SoundPlayer SlangsoundPlayer;
-        public SoundPlayer VarkensoundPlayer;
+        /*public SoundPlayer KoesoundPlayer;*/
+        /*public SoundPlayer SlangsoundPlayer;*/
+        /*public SoundPlayer VarkensoundPlayer;*/
         public Form1()
         {
             InitializeComponent();
-            KoesoundPlayer = new SoundPlayer("meuglement.wav");
-            SlangsoundPlayer = new SoundPlayer("SIFFLEMENT.wav");
-            VarkensoundPlayer = new SoundPlayer("grouinement.wav");
+            /*KoesoundPlayer = new SoundPlayer(@"C:\Users\ahmad\source\repos\Dieren2\bin\Debug\net6.0-windows\meuglement.wav");*/
+            /*SlangsoundPlayer = new SoundPlayer("SIFFLEMENT.wav");*/
+            /*VarkensoundPlayer = new SoundPlayer("grouinement.wav");*/
         }
 
         private void btHoren_Click(object sender, EventArgs e)
@@ -35,18 +35,18 @@ namespace Dieren2
             if(cbKoe.Checked)
             {
                 MessageBox.Show(koe.ToString());
-                KoesoundPlayer.Play();
+               /* KoesoundPlayer.Play();*/
             }
             if (cbSlang.Checked)
             {
                 MessageBox.Show(slang.ToString());
-                SlangsoundPlayer.Play();
+                /*SlangsoundPlayer.Play();*/
             }
             
             if(cbVarken.Checked)
             {
                 MessageBox.Show(varken.ToString());
-                VarkensoundPlayer.Play();
+                /*VarkensoundPlayer.Play();*/
             }
         }
     }

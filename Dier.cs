@@ -8,6 +8,7 @@ namespace Dieren
 {
     internal abstract class Dier
     {
+
         public int gewicht {  get; set; }
 
         protected Dier(int gewicht)
