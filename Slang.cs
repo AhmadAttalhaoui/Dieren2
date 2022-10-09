@@ -16,7 +16,7 @@ namespace Dieren
 
         public string ssst()
         {
-            SlangsoundPlayer = new SoundPlayer(@"C:\Users\ahmad\source\repos\Dieren2\bin\Debug\net6.0-windows\SIFFLEMENT.wav");
+            SlangsoundPlayer = new SoundPlayer(@"..\..\..\..\Dieren2\bin\Debug\net6.0-windows\SIFFLEMENT.wav");
             SlangsoundPlayer.Play();
             return base.Zegt("ssj");
         }

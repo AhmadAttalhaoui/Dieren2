@@ -15,7 +15,7 @@ namespace Dieren
         }
         public string Oeink()
         {
-            VarkensoundPlayer = new SoundPlayer("grouinement.wav");
+            VarkensoundPlayer = new SoundPlayer(@"..\..\..\..\Dieren2\bin\Debug\net6.0-windows\grouinement.wav");
             VarkensoundPlayer.Play();
             return base.Zegt("groink");
         }

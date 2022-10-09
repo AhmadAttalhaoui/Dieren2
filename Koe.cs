@@ -17,7 +17,7 @@ namespace Dieren
 
         public  string boet()
         {
-            KoesoundPlayer = new SoundPlayer(@"C:\Users\ahmad\source\repos\Dieren2\bin\Debug\net6.0-windows\meuglement.wav");
+            KoesoundPlayer = new SoundPlayer(@"..\..\..\..\Dieren2\bin\Debug\net6.0-windows\meuglement.wav");
             KoesoundPlayer.Play();
             return base.Zegt("boet");
         }
